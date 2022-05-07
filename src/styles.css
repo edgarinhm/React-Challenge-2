@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: papayawhip;
+}
+.cards-title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.cards-body {
+  font-size: 1rem;
+}
+
+.cards-body > img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.cards-sprites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-sprites > .img-shiny {
+  display: none;
+}
+
+.cards-sprites > .img-default:hover + .img-shiny {
+  display: flex;
+}
+
+.cards-footer a {
+  text-decoration: none;
+}
